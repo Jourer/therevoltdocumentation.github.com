@@ -1,13 +1,49 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Free GitHub Site</title>
+  <meta charset="UTF-8">
+  <title>Revolt Docs Style</title>
   <style>
-    body { font-family: Arial; background: #f0f0f0; text-align: center; padding: 50px; }
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      display: flex;
+      height: 100vh;
+    }
+    nav {
+      width: 200px;
+      background: #1f1f1f;
+      color: white;
+      padding: 20px;
+    }
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      display: block;
+      margin: 10px 0;
+    }
+    main {
+      padding: 40px;
+      flex: 1;
+      background: #121212;
+      color: #eee;
+    }
+    h1, h2 {
+      color: #61dafb;
+    }
   </style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>This is my free website hosted with GitHub Pages.</p>
+  <nav>
+    <h2>Docs</h2>
+    <a href="#">Getting Started</a>
+    <a href="#">API Reference</a>
+    <a href="#">Examples</a>
+  </nav>
+  <main>
+    <h1>Welcome to ReVolt Docs Clone</h1>
+    <p>This is a simple static site styled like ReVolt's dev portal.</p>
+  </main>
 </body>
 </html>
